@@ -1,0 +1,22 @@
+{
+  "name": "e2e-demo2",
+  "version": "1.0.0",
+  "description": "Testing Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "Automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "devDependencies": {
+    "@ngneat/falso": "^6.4.0",
+    "cypress-mailosaur": "^2.13.0"
+  }
+}
