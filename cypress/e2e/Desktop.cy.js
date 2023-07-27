@@ -42,7 +42,7 @@ describe('Test suite for Computer Items', function () {
     it('should check the sort by function', function () {
 
         DesktopPage.directSubCategory("computers", "Desktop")
-        // A to Z
+        // A to Z // changelfsdjls
         DesktopPage.sortBy('5')
         cy.get('.product-title > a')
             .then(($productNames) => {

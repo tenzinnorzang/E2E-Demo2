@@ -30,6 +30,7 @@ export default class DesktopPage{
             cy.get("#topcartlink").should("contain.text", `Shopping cart (${quantity})`)
         })
     }
+    dsfafds
 
     static sortArray(attr, typeOfSort){
         cy.get(`.product-${attr} > a`)
