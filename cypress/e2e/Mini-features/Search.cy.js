@@ -1,4 +1,4 @@
-import Search from "../misc/page-objects/Search";
+import Search from "../../misc/page-objects/Mini-features/Search";
 
 describe('Search Functionality tests', function () {
     beforeEach(() => {

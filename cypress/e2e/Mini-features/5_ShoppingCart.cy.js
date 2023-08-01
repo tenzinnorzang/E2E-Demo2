@@ -1,5 +1,5 @@
-import {Login} from "../misc/page-objects/Login";
-import {ShoppingCart} from "../misc/page-objects/5_ShoppingCart";
+import {Login} from "../../misc/page-objects/Login_Registration/Login";
+import {ShoppingCart} from "../../misc/page-objects/Mini-features/5_ShoppingCart";
 
 describe('addToCart', function () {
     beforeEach(function (){

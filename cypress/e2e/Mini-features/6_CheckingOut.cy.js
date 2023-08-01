@@ -1,7 +1,7 @@
-import {Login} from "../misc/page-objects/Login";
-import {ShoppingCart} from "../misc/page-objects/5_ShoppingCart";
-import {CheckingOut} from "../misc/page-objects/6_CheckingOut";
-import {checkOutDetails} from "../misc/utils";
+import {Login} from "../../misc/page-objects/Login_Registration/Login";
+import {ShoppingCart} from "../../misc/page-objects/Mini-features/5_ShoppingCart";
+import {CheckingOut} from "../../misc/page-objects/Mini-features/6_CheckingOut";
+import {checkOutDetails} from "../../misc/utils";
 
 describe('Checkout Form Fill Up Tests', function () {
     beforeEach(function (){

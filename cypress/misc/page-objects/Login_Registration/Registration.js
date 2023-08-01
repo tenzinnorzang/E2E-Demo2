@@ -1,4 +1,4 @@
-import {generateMailosaurEmail, registrationDetails} from "../utils";
+import {generateMailosaurEmail, registrationDetails} from "../../utils";
 
 export class Registration{
     static register(pwd, conpwd) {

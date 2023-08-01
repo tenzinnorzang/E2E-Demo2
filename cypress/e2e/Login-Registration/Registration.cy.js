@@ -1,5 +1,4 @@
-import {Registration} from "../misc/page-objects/Registration";
-import {generateMailosaurEmail} from "../misc/utils";
+import {Registration} from "../../misc/page-objects/Login_Registration/Registration";
 
 describe('Registration Negative tests', function () {
     beforeEach(function (){

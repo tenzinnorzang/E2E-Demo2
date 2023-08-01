@@ -1,4 +1,4 @@
-import {Login} from "../misc/page-objects/Login";
+import {Login} from "../../misc/page-objects/Login_Registration/Login";
 
 describe('My Account tests', function () {
     beforeEach(function (){
